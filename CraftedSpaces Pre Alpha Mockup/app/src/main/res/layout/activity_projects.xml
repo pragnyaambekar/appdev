@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="top|center_horizontal"
+    android:background="#FAFAFA">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome, User 👷"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/roleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Role: Professional"
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/locationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location: Lat, Lng"
+        android:textSize="16sp"
+        android:textColor="#777777"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnStartProject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start New Project" />
+</LinearLayout>

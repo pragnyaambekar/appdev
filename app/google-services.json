@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "698762906885",
+    "project_id": "craftedspaces-9b906b5a",
+    "storage_bucket": "craftedspaces-9b906b5a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698762906885:android:c3a49f7fcb70277d943b6c",
+        "android_client_info": {
+          "package_name": "com.example.craftedspaces"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDffUcfgmNhj295kGv7-gIjqOdhrYDXitg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
